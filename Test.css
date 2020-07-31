@@ -1,0 +1,38 @@
+/* -------------- GLOBAL START -------------- */
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: tahoma, helvetica, sans-serif;
+    font-size: 8pt;
+    min-width: 768px;
+    color: white;
+    background-color: #0f111d;
+}
+
+#index {
+    border-color: 1px solid blue;
+}
+
+#wrapper {
+    border-color: 1px solid purple;
+}
+
+#header {
+    border-color: 1px solid black;
+}
+/* -------------- USERSTAT START -------------- */
+#userinfo {
+    border-color: 1px solid red;
+}
+
+/* -------------- USERSTAT START -------------- */
+/* -------------- GLOBAL START -------------- */
+
+
+
+/* -------------- FORSIDE START -------------- */
+
+/* -------------- FORSIDE SLUT -------------- */
