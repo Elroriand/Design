@@ -1,6 +1,7 @@
 /* Designed by Elroriand */
 /*Ver 1.0*/
 /*Ver 1.1*/
+/*Ver 1.2*/
 /* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
 * {
     padding: 0em;
@@ -174,6 +175,7 @@ ul.thin li {
 }
 
 #lolgo {
+    background-image: url('/static/logo/new_logo_blue.png');
     /*background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');*/
     background-repeat: no-repeat;
     background-position: 0px 15px;
