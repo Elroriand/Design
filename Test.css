@@ -5,6 +5,7 @@
 /*Ver 1.3*/  
 /*Ver 1.4*/      
 /*Ver 1.5*/  
+/*Ver 1.6*/  
 /* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
 * {
     padding: 0em;
@@ -316,7 +317,7 @@ ul.thin li {
     overflow: hidden;
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png') -48px 0;
+    background: url('https://danishbits.org/images/icons.png') -48px 0;
     margin: 0;
     position: relative;
     right: 14px;
