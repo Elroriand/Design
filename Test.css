@@ -3,6 +3,7 @@
 /*Ver 1.1*/
 /*Ver 1.2*/
 /*Ver 1.3*/  
+/*Ver 1.4*/  
 /* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
 * {
     padding: 0em;
@@ -176,7 +177,7 @@ ul.thin li {
 }
 
 #lolgo {
-    background-image: url('/static/logo/new_logo_blue.png');
+    background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');
     /*background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');*/
     background-repeat: no-repeat;
     background-position: 0px 15px;
@@ -314,7 +315,7 @@ ul.thin li {
     overflow: hidden;
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png') -48px 0;
+    background: url('https://danishbits.org/images/icons.png') -48px 0;
     margin: 0;
     position: relative;
     right: 14px;
@@ -331,7 +332,7 @@ ul.thin li {
     overflow: hidden;
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png') -48px 0;
+    background: url('https://danishbits.org/images/icons.png') -48px 0;
     margin: 0;
     position: relative;
     right: 14px;
@@ -412,7 +413,7 @@ ul.thin li {
     float: left;
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png');
+    background: url('https://danishbits.org/images/icons.png');
 }
 
 #stats_seeding.user_stat_pics {
@@ -443,7 +444,7 @@ ul.thin li {
     text-indent: 101%;
     display: block;
     float: left;
-    background: url('/images/icons.png');
+    background: url('https://danishbits.org/images/icons.png');
     width: 12px;
     height: 12px;
     position: relative;
@@ -542,7 +543,7 @@ ul.thin li {
 /* TilfÃ¸j menu ikoner */
 #nav_index a:before {
     content: " ";
-    background-image: url(/images/menu/nav_index.png);
+    background-image: url(https://danishbits.org/images/menu/nav_index.png);
     background-size: 32px 32px;
     position: absolute;
     left: 7px;
@@ -554,7 +555,7 @@ ul.thin li {
 
 #nav_torrents a:before {
     content: " ";
-    background-image: url(/images/menu/nav_torrents.png);
+    background-image: url(https://danishbits.org/images/menu/nav_torrents.png);
     background-size: 32px 32px;
     position: absolute;
     left: 10px;
@@ -566,7 +567,7 @@ ul.thin li {
 
 #nav_movieindex a:before {
     content: " ";
-    background-image: url(/images/menu/nav_movieindex.png);
+    background-image: url(https://danishbits.org/images/menu/nav_movieindex.png);
     background-size: 32px 32px;
     position: absolute;
     left: -3px;
@@ -578,7 +579,7 @@ ul.thin li {
 
 #nav_movieserie a:before {
     content: " ";
-    background-image: url(/images/menu/nav_movieserie.png);
+    background-image: url(https://danishbits.org/images/menu/nav_movieserie.png);
     background-size: 32px 32px;
     position: absolute;
     left: 2px;
@@ -590,7 +591,7 @@ ul.thin li {
 
 #nav_requests a:before {
     content: " ";
-    background-image: url(/images/menu/nav_requests.png);
+    background-image: url(https://danishbits.org/images/menu/nav_requests.png);
     background-size: 32px 32px;
     position: absolute;
     left: 12px;
@@ -602,7 +603,7 @@ ul.thin li {
 
 #nav_forums a:before {
     content: " ";
-    background-image: url(/images/menu/nav_forums.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_forums.png);
     background-size: 32px 32px;
     position: absolute;
     left: 4px;
@@ -614,7 +615,7 @@ ul.thin li {
 
 #nav_helpdesk a:before {
     content: " ";
-    background-image: url(/images/menu/nav_helpdesk.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_helpdesk.png);
     background-size: 32px 32px;
     position: absolute;
     left: 24px;
@@ -626,7 +627,7 @@ ul.thin li {
 
 #nav_irc a:before {
     content: " ";
-    background-image: url(/images/menu/nav_irc.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_irc.png);
     background-size: 32px 32px;
     position: absolute;
     left: -2px;
@@ -638,7 +639,7 @@ ul.thin li {
 
 #nav_top10 a:before {
     content: " ";
-    background-image: url(/images/menu/nav_top10.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_top10.png);
     background-size: 32px 32px;
     position: absolute;
     left: 7px;
@@ -650,7 +651,7 @@ ul.thin li {
 
 #nav_bonus a:before {
     content: " ";
-    background-image: url(/images/menu/nav_bonus.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_bonus.png);
     background-size: 32px 32px;
     position: absolute;
     left: 4px;
@@ -662,7 +663,7 @@ ul.thin li {
 
 #nav_uploader a:before {
     content: " ";
-    background-image: url(/images/menu/nav_uploader.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_uploader.png);
     background-size: 32px 32px;
     position: absolute;
     left: 4px;
@@ -674,7 +675,7 @@ ul.thin li {
 
 #nav_torrentedit a:before {
     content: " ";
-    background-image: url(/images/menu/nav_torrentedit.png);
+    background-image: url(https://danishbits.orghttps://danishbits.org/images/menu/nav_torrentedit.png);
     background-size: 32px 32px;
     position: absolute;
     left: -7px;
@@ -821,7 +822,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -843,7 +844,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -865,7 +866,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -884,7 +885,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -903,7 +904,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -981,7 +982,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -999,7 +1000,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -1016,7 +1017,7 @@ td.searchbox select {
     box-sizing: border-box;
     color: #858585;
     font-weight: normal;
-    background: url(/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    background: url(https://danishbits.orghttps://danishbits.org/images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
     border-radius: 4px;
     border: 1px solid #262626;
 }
@@ -1801,43 +1802,43 @@ ul .invitetree {
 .cats_applications {
     width: 28px;
     height: 28px;
-    background: url('/images/apps.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/apps.png') no-repeat center center;
 }
 
 .cats_audiobooks {
     width: 28px;
     height: 28px;
-    background: url('/images/audiobook.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/audiobook.png') no-repeat center center;
 }
 
 .cats_comedy {
     width: 28px;
     height: 28px;
-    background: url('/images/comedy.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/comedy.png') no-repeat center center;
 }
 
 .cats_comics {
     width: 28px;
     height: 28px;
-    background: url('/images/comics.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/comics.png') no-repeat center center;
 }
 
 .cats_ebooks {
     width: 28px;
     height: 28px;
-    background: url('/images/ebook.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/ebook.png') no-repeat center center;
 }
 
 .cats_elearningvideos {
     width: 28px;
     height: 28px;
-    background: url('/images/elearning.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/elearning.png') no-repeat center center;
 }
 
 .cats_music {
     width: 28px;
     height: 28px;
-    background: url('/images/music.png') no-repeat center center;
+    background: url('https://danishbits.orghttps://danishbits.org/images/music.png') no-repeat center center;
 }
 
 
@@ -2049,11 +2050,11 @@ tr:nth-child(odd) {
 /* Layout (Torrents page) */
 
 .show_torrents {
-    background: url('/images/show.png') no-repeat center center;
+    background: url('https://danishbits.org/images/show.png') no-repeat center center;
 }
 
 .hide_torrents {
-    background: url('/images/hide.png') no-repeat center center;
+    background: url('https://danishbits.org/images/hide.png') no-repeat center center;
 }
 
 .torrent_table {
@@ -2083,14 +2084,14 @@ tr:nth-child(odd) {
 .last_read {
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png') 0px -12px;
+    background: url('https://danishbits.org/images/icons.png') 0px -12px;
     margin-left: 5px;
 }
 
 .last_readny {
     width: 12px;
     height: 12px;
-    background: url('/images/icons.png') 0px -12px;
+    background: url('https://danishbits.org/images/icons.png') 0px -12px;
     margin-left: 6px;
     margin-top: 3px;
 }
@@ -2162,7 +2163,7 @@ tr.unreadpm {
 }
 
 #forums span.forumicon {
-    background-image: url('/images/icons.png');
+    background-image: url('https://danishbits.org/images/icons.png');
     width: 12px;
     height: 12px;
     display: block;
