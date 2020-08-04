@@ -1,4 +1,5 @@
 /* Designed by Elroriand */
+/*Ver: 1.0*/
 
 /* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
 * {
@@ -173,7 +174,7 @@ ul.thin li {
 }
 
 #lolgo {
-    background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');
+    /*background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');*/
     background-repeat: no-repeat;
     background-position: 0px 15px;
     width: 800px;
@@ -189,7 +190,7 @@ ul.thin li {
     width: 410px;
     height: 110px;
     border: 0px;
-    background-image: url("https://danishbits.org/static/bitbucket/unity/unitylogo1.png");
+    /*background-image: url("https://danishbits.org/static/bitbucket/unity/unitylogo1.png"); */
     background-repeat: no-repeat;
 }
 
