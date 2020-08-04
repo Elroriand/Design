@@ -1,4 +1,6 @@
-/* ---------------------------- GLOBAL START ---------------------------- */
+/* Designed by Elroriand */
+
+/* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
 * {
     padding: 0em;
     margin: 0em;
@@ -13,12 +15,12 @@ body {
     font-family: tahoma, helvetica, sans-serif;
     font-size: 8pt;
     min-width: 768px;
-    color: white;
-    background-color: #000000;
+    color: #049DBF;
+    background-color: #0D0D0D;
 }
 
 tbody {
-    background-color: #0f111d;
+    background-color: #0D0D0D;
 }
 
 
@@ -37,7 +39,7 @@ a:hover {
 
 h1, h2, h3, h4 {
     margin: 5px 0px;
-    color: white;
+    color: #049DBF;
     font-weight: bold;
 }
 
@@ -59,15 +61,11 @@ li {
 }
 
 input, button {
-    background: #1b1b30;
-    box-shadow: 0 0 5px #1a1a1a;
+    background: #1B1B1B;
     border-radius: 4px;
-    border-top: 1px solid #947be8;
-    border-left: 1px solid #947be8;
-    border-right: 1px solid #7c4a93;
-    border-bottom: 1px solid #7c4a93;
-    color: #fff;
-    padding: 2px 2px;
+    border: 1px solid #262626;
+    color: #858585;
+    padding: 2px 2px; 
 }
 
 input:hover {
@@ -75,7 +73,7 @@ input:hover {
 }
 
 input[disabled], input:disabled {
-    background: #343434;
+    background: #1b1b30;
 }
 
 input[disabled]:hover, input:disabled:hover {
@@ -85,25 +83,19 @@ input[disabled]:hover, input:disabled:hover {
 
 textarea {
     padding: 2px 3px;
-    color: #aaa;
-    background: #1b1b30;
+    color: #858585;
+    background: #1B1B1B;
     border-radius: 4px;
-    border-top: 1px solid #947be8;
-    border-left: 1px solid #947be8;
-    border-right: 1px solid #7c4a93;
-    border-bottom: 1px solid #7c4a93;
+    border: 1px solid #262626;
     margin-bottom: 5px;
 }
 
 input[type=text], input[type=password], input[type=file] {
     padding: 2px 3px;
-    color: #fff;
-    background: #1b1b30;
+    color: #858585;
+    background: #1B1B1B;
     border-radius: 4px;
-    border-top: 1px solid #947be8;
-    border-left: 1px solid #947be8;
-    border-right: 1px solid #7c4a93;
-    border-bottom: 1px solid #7c4a93;
+    border: 1px solid #262626;
 }
 
 input[type=file], input[type=text]:active, input[type=text]:focus, input[type=password]:active, input[type=password]:focus {
@@ -171,72 +163,57 @@ ul.thin li {
     padding: 0px;
 }
 
+/* ---------------------------------------------------------------------- HRADER LOGO START ---------------------------------------------------------------------- */
 #header {
     width: 100%;
     min-width: 1000px;
     padding: 0px 0 0 0;
-    background: #13172d;
-    border-bottom: #151515;
+    background: #121212;
     height: 160px;
 }
 
-#content {
-    margin-top: 90px;
-    width: 100%;
-    min-width: 1000px;
-    overflow: hidden;
-}
-
-#footer {
-    width: 100%;
-    text-align: center;
-    padding: 1em 0;
-}
-
-#logo {
+#lolgo {
+    background-image: url('https://danishbits.org/static/logo/new_logo_blue.png');
+    background-repeat: no-repeat;
+    background-position: 0px 15px;
     width: 800px;
     height: 135px;
     margin: 0 auto;
     background-position: 0px 15px;
 }
 
-#logo a {
+#linktorrent {
+    position: absolute;
+    top: 15px;
+    left: 410px;
+    width: 410px;
+    height: 110px;
+    border: 0px;
+    background-image: url("https://danishbits.org/static/bitbucket/unity/unitylogo1.png");
+    background-repeat: no-repeat;
+}
+
+#lolgo a {
     border: none;
-    width: 800px;
+    width: 400px;
     height: 135px;
     display: block;
 }
 
-#logo a:hover {
-    border: none;
-}
-
-.thin {
-    width: 1000px;
-    margin: 0px auto;
-}
-
-.thinforum {
-    width: 90%;
-    max-width: 890px;
-    margin: 0px auto;
-}
-
-/* -------------- USERSTAT START -------------- */
-.curtain {
-    background-color: black;
-}
-
-#userinfo {
+#linkroot {
     position: absolute;
-    top: 20px;
-    right: 0px;
-    clear: left;
-    height: 120px;
-    color: #C0C0C0;
-    width: 650px;
+    top: 0px;
+    left: 0px;
+    width: 410px;
+    height: 110px;
+    background-color: transparent;
+    border: 0px;
 }
 
+/* ---------------------------------------------------------------------- HRADER LOGO SLUT ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- USERSTAT START ---------------------------------------------------------------------- */
 #userinfo img {
     margin-top: -5px;
 }
@@ -246,13 +223,43 @@ ul.thin li {
     margin: 0px 0.1%;
 }
 
+#userinfo_username .brackets:before {
+    content: "[";
+}
+
+#userinfo_username .brackets:after {
+    content: "]";
+}
+
+#userinfo_minor .brackets:before {
+    content: "[";
+}
+
+#userinfo_minor .brackets:after {
+    content: "]";
+}
+
+#userinfo {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    clear: left;
+    height: 120px;
+    color: #049DBF;
+    width: 650px;
+}
+
+#userinfo a {
+    color: #049DBF;
+}
+
 #userinfo ul {
     display: block;
     list-style: none;
     margin: 0;
     padding: 0;
     /* Make sure text is readable when it overlaps the header on small resolutions */
-    background: #13172d;
+    /*background: yellow;   */
 }
 
 #userinfo li {
@@ -280,7 +287,7 @@ ul.thin li {
     top: -5px;
     font-weight: bold;
     text-align: right;
-    background: #13172d;
+   
 }
 
 #userinfo #userinfo_username .user_stat_pics {
@@ -353,46 +360,121 @@ ul.thin li {
     clear: left;
 }
 
-
-#lolgo {
-    background-image: url('images/new_logo_blue.png');
-    background-repeat: no-repeat;
-    background-position: 0px 15px;
-    width: 800px;
-    height: 135px;
-    margin: 0 auto;
-    background-position: 0px 15px;
+/* Remove the old icons */
+#stats_seeding a img, #stats_leeching a img {
+    width: 0;
+    height: 0;
 }
 
-.user_stat_pics {
+#userinfo_stats {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    z-index: 2;
+}
+
+#userinfo_stats li {
+    position: relative;
+    display: block;
+    line-height: 20px;
+    vertical-align: middle;
+    float: left;
+    margin: 0 2px 0 2px;
+}
+
+#userinfo_major {
+    position: absolute;
+    top: 84px;
+    right: 12px;
+    z-index: 2;
+}
+
+#userinfo_major li {
+    float: left;
+    padding: 0 5px 0 5px;
+    border-left: 1px dashed #262626;
+}
+
+#userinfo_major li:first-child, #userinfo_major li.user_stat_pics {
+    border-left: 0;
+}
+
+#userinfo a:hover {
+    color: white;
+}
+
+#stats_seeding.user_stat_pics, #stats_leeching.user_stat_pics {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url('images/icons.png');
+}
+
+#stats_seeding.user_stat_pics {
+    background-position: -12px 0;
+}
+
+#stats_seeding .stat {
+    display: block;
+    padding-right: 10px;
+    border-right: 1px dashed #262626;
+    margin-right: 5px;
+    height: 20px;
+}
+
+#stats_leeching.user_stat_pics {
+    background-position: -24px 0;
+}
+
+#stats_ratio {
+    border-left: 1px dashed #3a3a3a;
+    padding-left: 10px;
+    margin-left: 10px !important;
+}
+
+#stats_ratio .ratio_text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 101%;
+    display: block;
+    float: left;
+    background: url('images/icons.png');
+    width: 12px;
+    height: 12px;
+    position: relative;
     top: 4px;
+    margin-right: 4px;
 }
 
-#userinfo_username .brackets:before {
-    content: "[";
+#stats_connectable {
+    border-left: 1px dashed #3a3a3a;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 5px !important;
 }
 
-#userinfo_username .brackets:after {
-    content: "]";
+#stats_spin {
+    border-left: 1px dashed #3a3a3a;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 5px !important;
 }
 
-#userinfo_minor .brackets:before {
-    content: "[";
+#stats_skrab {
+    border-left: 1px dashed #3a3a3a;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 5px !important;
 }
 
-#userinfo_minor .brackets:after {
-    content: "]";
+#stats_connectable font[color=green] {
+    color: #418B00;
 }
+/* ---------------------------------------------------------------------- USERSTAT START ---------------------------------------------------------------------- */
 
-
-/* -------------- USERSTAT START -------------- */
-
-
-/* -------------- MENU START -------------- */
+/* ---------------------------------------------------------------------- MENU START ---------------------------------------------------------------------- */
 #menu {
     display: block;
-    height: 70px;
-    background: #151a38;
+    height: 40px;
+    background: #121212;
     position: absolute;
     overflow: hidden;
     text-align: center;
@@ -402,48 +484,211 @@ ul.thin li {
     padding: 0.0em 0;
     font: 14px/40px Tahoma, Verdana, sans-serif;
     border: 0px;
-    border-top: 1px solid transparent;
-    -moz-border-image: -moz-linear-gradient(right, #7c4a93 0%, #3c31aa 50%, #427a8a 100%);
-    -webkit-border-image: -webkit-linear-gradient(right, #7c4a93 0%, #3c31aa 50%, #427a8a 100%);
-    border-image: linear-gradient(to left, #7c4a93 0%, #3c31aa 50%, #427a8a 100%);
-    border-image-slice: 1;
+    /*border-top: 2px solid #1B1B1B;  */  
+   border-bottom: 2px solid #1B1B1B; 
+ 
 }
 
 #menu ul {
     width: 100% float: center;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 0px;
 }
 
 #menu ul li {
     position: relative;
     display: inline;
-    margin: 5px 20px;
+    margin: 5px 12px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    
 }
 
 #menu ul li a {
-    /*color: #afafaf;*/
-    color: #fff;
     text-shadow: 1px 1px 0 #000;
+    color: #858585;
+    background: #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    padding-left: 3.5px;
+    padding-right: 5.5px;
 }
 
 #menu ul li a:hover {
-    color: #fff;
-    background-color: #0F111D;
-    text-decoration: none;
-    margin: -41px -22px -12px -22px;
-    padding: 41px 22px 12px 22px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    text-shadow: 1px 1px 0 #000;
+    color: #049DBF;
+    background: #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    padding-left: 3.5px;
+    padding-right: 5.5px;
 }
-/* -------------- MENU SLUT -------------- */
 
 
-/* -------------- SEARCHBAR START -------------- */
+
+
+
+
+
+/* TilfÃ¸j menu ikoner */
+#nav_index a:before {
+    content: " ";
+    background-image: url(images/menu/nav_index.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 7px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_torrents a:before {
+    content: " ";
+    background-image: url(images/menu/nav_torrents.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 10px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_movieindex a:before {
+    content: " ";
+    background-image: url(images/menu/nav_movieindex.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: -3px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_movieserie a:before {
+    content: " ";
+    background-image: url(images/menu/nav_movieserie.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 2px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_requests a:before {
+    content: " ";
+    background-image: url(images/menu/nav_requests.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 12px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_forums a:before {
+    content: " ";
+    background-image: url(images/menu/nav_forums.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 4px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_helpdesk a:before {
+    content: " ";
+    background-image: url(images/menu/nav_helpdesk.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 24px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_irc a:before {
+    content: " ";
+    background-image: url(images/menu/nav_irc.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: -2px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_top10 a:before {
+    content: " ";
+    background-image: url(images/menu/nav_top10.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 7px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_bonus a:before {
+    content: " ";
+    background-image: url(images/menu/nav_bonus.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 4px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_uploader a:before {
+    content: " ";
+    background-image: url(images/menu/nav_uploader.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: 4px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+#nav_torrentedit a:before {
+    content: " ";
+    background-image: url(images/menu/nav_torrentedit.png);
+    background-size: 32px 32px;
+    position: absolute;
+    left: -7px;
+    top: -32px;
+    height: 32px;
+    width: 32px;
+    display: inherit;
+}
+
+li#nav_donate span {
+    color: red;
+    font-weight: bold;
+}
+ 
+/* ---------------------------------------------------------------------- MENU SLUT ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- SEARCHBAR START ---------------------------------------------------------------------- */
 #searchbars {
     position: absolute;
     top: 130px;
@@ -491,28 +736,17 @@ ul.thin li {
 #searchbars ul li form {
     display: inline;
 }
-/* -------------- SEARCHBAR SLUT -------------- */
+/* ---------------------------------------------------------------------- SEARCHBAR SLUT ---------------------------------------------------------------------- */
 
 
-
-
-/* -------------- ALERT START -------------- */
+/* ---------------------------------------------------------------------- ALERT START ---------------------------------------------------------------------- */
 #alerts {
     position: relative;
     clear: left;
-    margin: 10px auto 10px;
+    margin: -5px auto 18px;
 }
 
-#cat-selector ul {
-    width: 100%;
-}
 
-#cat-selector ul li {
-    display: inline;
-    width: 12em;
-    height: 1em;
-    float: left;
-}
 
 .alertbar {
     text-align: center;
@@ -520,20 +754,16 @@ ul.thin li {
     font-size: 0.95em;
     width: 250px;
     margin: 5px auto 5px auto;
-    background: #2e2e2e;
-    background: -moz-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e2e2e), color-stop(50%, #303030), color-stop(51%, #252525), color-stop(100%, #1f1f1f));
-    background: -webkit-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
-    background: -o-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
-    background: -ms-linear-gradient(top, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
-    background: linear-gradient(to bottom, #2e2e2e 0%, #303030 50%, #252525 51%, #1f1f1f 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#1f1f1f', GradientType=0);
+    background: rgb(42,42,45);
+    background: -moz-linear-gradient(90deg, rgba(42,42,45,1) 2%, rgba(42,42,42,1) 40%, rgba(57,58,58,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(42,42,45,1) 2%, rgba(42,42,42,1) 40%, rgba(57,58,58,1) 100%);
+    background: linear-gradient(90deg, rgba(42,42,45,1) 2%, rgba(42,42,42,1) 40%, rgba(57,58,58,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a2a2d",endColorstr="#393a3a",GradientType=1); 
     box-shadow: 0 0 5px #1a1a1a;
-    border-radius: 4px;
-    border-right: 1px solid #1b1b1b;
-    border-bottom: 1px solid #1b1b1b;
-    border-top: 1px solid #434343;
-    border-left: 1px solid #3a3a3a;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-top: 1px solid #262626;
+
 }
 
 .alertbar a {
@@ -544,10 +774,333 @@ ul.thin li {
 }
 
 .alertbar a font {
-    color: #0087dc;
-    !important;
+    color: #fff;
     text-shadow: 1px 1px 0 black;
 }
+/* ---------------------------------------------------------------------- ALERT SLUT ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- CONTENT START ---------------------------------------------------------------------- */
+#content {
+    margin-top: 90px;
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+    vertical-align: bottom;
+}
+/* ---------------------------------------------------------------------- CONTENT SLUT ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------ GLOBAL START ------------------------------------------------------------------------------------ */
+
+
+
+/* ---------------------------------------------------------------------- FORSIDE START ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- FORSIDE SLUT ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- BROWSE START ---------------------------------------------------------------------- */
+td.searchbox select {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 95px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+
+
+/* ---------------------------------------------------------------------- BROWSE SLUT ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- FILM START ---------------------------------------------------------------------- */
+#sort  {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 210px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+/* ---------------------------------------------------------------------- FILM SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- SERIER START ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- SERIER SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- REQUEST START ---------------------------------------------------------------------- */
+#unit  {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 50px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+/* ---------------------------------------------------------------------- REQUEST SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- FORUM START ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- FORUM SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- HJÃ†LP/REGLER START ---------------------------------------------------------------------- */
+#quickpost select  {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 220px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+
+#quickpost textarea {
+    width: 100%;
+}
+/* ---------------------------------------------------------------------- HJÃ†LP/REGLER SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- CHAT START ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- CHAT SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- TOP10 START ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- TOP10 SLUT ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- BONUS START ---------------------------------------------------------------------- */
+.bonus {
+    width: 29%;
+    width: 29%;
+    float: left;
+}
+
+.bonusmid {
+    width: 40%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bp_green {
+    color: darkgreen;
+}
+
+.bp_darkred {
+    color: darkred;
+}
+
+#noti_Container {
+    position: relative;
+    display: inline;
+    width: 16px;
+    height: 16px;
+}
+
+#noti_bubble {
+    display: inline;
+    position: absolute;
+    top: -19px;
+    right: -233px;
+    padding: 1px 2px 1px 2px;
+    background-color: red;
+    color: white;
+    font-weight: normal;
+    font-size: 0.70em;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px #202020;
+}
+
+#noti_bubble a {
+    color: #FFF;
+}
+
+      
+/* ---------------------------------------------------------------------- BONUS SLUT ---------------------------------------------------------------------- */
+
+#type  {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 85px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+
+#categories  {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 3px;
+    -webkit-appearance: none;
+    width: 120px;
+    height: 21px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    color: #858585;
+    font-weight: normal;
+    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B1B;
+    border-radius: 4px;
+    border: 1px solid #262626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo {
+    width: 800px;
+    height: 135px;
+    margin: 0 auto;
+    background-position: 0px 15px;
+}
+
+#logo a {
+    border: none;
+    width: 800px;
+    height: 135px;
+    display: block;
+}
+
+#logo a:hover {
+    border: none;
+}
+
+
+
+
+
+ #cat-selector ul {
+    width: 100%;
+}
+
+#cat-selector ul li {
+    display: inline;
+    width: 12em;
+    height: 1em;
+    float: left;
+}
+
+
 
 .forumabo {
     padding: 0px;
@@ -557,7 +1110,7 @@ ul.thin li {
 }
 
 .alertbar a:hover font {
-    color: white;
+    text-shadow: 0px 0px 10px #FFF;
 }
 
 .alertbar font[color=green] {
@@ -574,6 +1127,9 @@ ul.thin li {
     margin: 0px auto;
 }
 
+
+/* IE doesn't appear to like a simple display:none in our header. Random things start fucking up pretty badly. */
+
 .hidden {
     / position: absolute;
     left: -10000px;
@@ -585,193 +1141,22 @@ input.hidden {
 }
 
 
-/* -------------- ALERT SLUT -------------- */
-/* ---------------------------- GLOBAL START ---------------------------- */
+/* Layout (Any page) */
 
-
-
-/* -------------- FORSIDE START -------------- */
-
-/* -------------- FORSIDE SLUT -------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-#linktorrent {
-    position: absolute;
-    top: 15px;
-    left: 410px;
-    width: 410px;
-    height: 110px;
-    border: 0px;
+.thin {
+    width: 1000px;
+    margin: 0px auto;
 }
 
-#lolgo a {
-    border: none;
-    width: 400px;
-    height: 135px;
-    display: block;
+.thinforum {
+    width: 90%;
+    max-width: 890px;
+    margin: 0px auto;
 }
 
-#linkroot {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 410px;
-    height: 110px;
-    background-color: transparent;
-    border: 0px;
+.user_stat_pics {
+    top: 4px;
 }
-
-
-
-
-/* Layout (Every page) */
-
-
-
-
-/*
-
-#
- {
-
-    position: absolute;
-
-    width: 100%;
-
-    overflow: hidden;
-
-    min-width: 1000px;
-
-    top: 178px;
-
-    text-align: center;
-
-    font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
-
-    font-size: 8pt;
-
-}
-
-*/
-
-
-
-
-/*
-
-
-
-#userinfo ul li {
-
-    position: relative;
-
-    display: inline;
-
-    margin: 0 0.1em;
-
-    line-height: 20px;
-
-    vertical-align: middle;
-
-}
-
-*/
-
-
-/*
-
-#userinfo a:hover {
-
-    text-decoration: underline;
-
-}
-
-
-
-#userinfo b a {
-
-    font-weight: normal;
-
-    font-size: 0.9em;
-
-    font-weight: bold;
-
-}*/
-
-
-
-
-
-
-
-
-/*
-
-#userinfo_major .brackets:after {
-
-    font-weight: bold;
-
-    content: " -";
-
-}*/
-
-
-/*#userinfo_major .brackets:last-child:after {
-
-    content: "";
-
-}*/
-
-
-/*
-
-#userinfo_major .brackets:after {
-
-    font-weight: bold;
-
-    content: "]";
-
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -812,7 +1197,7 @@ p.min_padding {
 
 .newspage {
     font-size: 9pt !important;
-    background-color: rgba(38, 49, 109, 0.2) !important;
+
 }
 
 .pad h3, .pad h4, .padbox h3, .padbox h4 {
@@ -825,7 +1210,7 @@ p.min_padding {
     width: 263px;
     height: 100%;
     margin-left: 0px;
-    margin-right: 0px
+    margin-right: 0px;
 }
 
 #forumrecent {
@@ -846,6 +1231,14 @@ p.min_padding {
 
 .head {
     padding: 4px;
+}
+
+.headinbox {
+    text-align: left !important;
+}
+
+.headinbox strong {
+    margin-left: 5px;
 }
 
 .cattop {
@@ -941,7 +1334,8 @@ td.colhead, .colhead td {
     white-space: nowrap;
     width: auto;
     text-align: center;
-    background: rgba(38, 49, 109, 0.2);
+    background: #1B1B1B;
+
 }
 
 .colheadmenu a:hover {
@@ -954,7 +1348,7 @@ td.colhead, .colhead td {
 
 .colheadmenuactive {
     font-size: 11pt;
-    background: rgba(38, 49, 109, 0.75);
+    background: rgba(27, 27, 27, 0.75);
     border: 1px solid #151515;
 }
 
@@ -966,61 +1360,64 @@ td.colhead, .colhead td {
     color: #FFF;
 }
 
+.pagination .current {
+    background: rgba(27, 27, 27, 0.75) !important;
+    color: #858585 !important;
+}
+
+ 
+.pagination a, .pagination span {
+    display: inline-block;
+    color: #858585 !important;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align:center;
+    border: 1px solid #333333;
+    cursor: pointer;
+
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #262626 !important;
+
+}
+
 .pagination>li>a, .pagination>li>span {
-    font-weight: bold;
     font-size: 10pt;
     color: #afafaf;
-    background-color: #262626;
+    background-color: #0f111d;
     border-color: #151515;
+    padding: 0.3em 0.5em;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     z-index: 0;
-    font-weight: bold;
-    color: #0087DC;
     font-size: 10pt;
     cursor: hand;
-    background-color: #2C2C2C;
+    background-color: rgba(27, 27, 27, 0.75) !important;
     border-color: #151515;
 }
 
 .pagination>li>a:hover {
-    font-weight: bold;
     font-size: 10pt;
-    background-color: #262626;
+    background-color: #0f111d;
     color: #0087DC;
     border-color: #151515;
 }
 
 .pagination>.active>a:hover {
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .colheadmenuopret {
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
-    background: #007AA9;
-    background: -moz-linear-gradient(top, #057BAA 0%, #006897 50%, #006392 51%, #005584 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #057baa), color-stop(50%, #006897), color-stop(51%, #006392), color-stop(100%, #005584));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #057baa 0%, #006897 50%, #006392 51%, #005584 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #057baa 0%, #006897 50%, #006392 51%, #005584 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #057baa 0%, #006897 50%, #006392 51%, #005584 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #057baa 0%, #006897 50%, #006392 51%, #005584 100%);
-    /* W3C */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#057baa', endColorstr='#005584', GradientType=0);
-    /* IE6-9 */
+    background: #262626;
+   
 }
 
 .colheadmenuopret a {
-    color: #202020;
-}
-
-.colheadmenuopret a:hover {
     color: #FFFFFF;
 }
 
@@ -1117,11 +1514,6 @@ ul.poll li.graph {
 }
 
 .torrent_table {
-    /*width: 80%;
-
-    max-width:1150px;
-
-    margin: auto;*/
     width: 1150px;
     margin: auto;
 }
@@ -1244,9 +1636,7 @@ table.forum_post td.body a:hover {
 }
 
 
-/* Keep images wrapped in a tags from jumping
-
-while hovering */
+/* Keep images wrapped in a tags from jumping while hovering */
 
 table.forum_post td.body a:hover img {
     margin-bottom: 3px;
@@ -1508,7 +1898,115 @@ span.powerleech {
 
 
 /* Layout (Every page) */
- 
+
+
+
+
+.box {
+    background: rgba(27, 27, 27, 0.2);
+    border: 1px solid #262626;
+
+}
+
+.boxc {
+    height: inherit;
+    background-color: inherit;
+    position: relative;
+    width: 600px;
+}
+
+.boxl, .boxr {
+    position: absolute;
+    display: inline;
+}
+
+.boxr {
+    right: 0;
+}
+
+.pad {
+    background: rgba(27, 27, 27, 0.2);
+    border: 1px solid #101010;
+}
+
+.searchtable tr {
+    background: rgba(27, 27, 27, 0.5);
+}
+
+.searchtable .spacer, .searchtable .fspacer {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.tags a {
+    color: #222;
+}
+
+.tags a:hover {
+    color: #444;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #262626;
+    border-radius: 4px;
+}
+
+tr {
+    border: 0;
+    background-color: rgba(27, 27, 27, 0.2);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(27, 27, 27, 0.35);
+}
+
+#torrents tr.sticky {
+    background-color: rgba(27, 27, 27, 0.50);
+}
+
+#torrents tr.sticky:nth-child(odd) {
+    background-color: rgba(27, 27, 27, 0.75);
+}
+
+.colhead, .colhead_dark, .head {
+    background: #1B1B1B;
+    color: #049DBF;
+    border: 1px solid #262626;
+    text-align: center;
+}
+
+.error_message {
+    margin: 15px auto 15px;
+    font-size: 13px;
+    padding: 6px 10px 6px 10px;
+    font-weight: normal;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #962121;
+    background: #b04848;
+    text-shadow: 1px 1px 0 #962121;
+    width: 400px;
+    display: block;
+}
+
+.save_message {
+    margin: 15px auto 15px;
+    font-size: 13px;
+    padding: 6px 10px 6px 10px;
+    font-weight: normal;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #8dc861;
+    background: #6aa34b;
+    text-shadow: 1px 1px 0 #4d7736;
+    width: 400px;
+    display: block;
+}
+
+.elem_error {
+    border: 3px solid #B00D0D;
+}
+
 
 /* Layout (Torrents page) */
 
@@ -1524,23 +2022,8 @@ span.powerleech {
     color: #afafaf;
 }
 
-.torrent_table tr:nth-child(odd) {
-    /*background-color: #2C2C2C;*/
-}
-
 .torrent_table tr a b {
     color: #0087dc;
-}
-
-
-/*.sticky, tr.sticky {
-
-    background-color: #383838 !important;
-
-}*/
-
-.selected {
-    /*background: #2c2c2c;*/
 }
 
 .selected a {
@@ -1549,7 +2032,6 @@ span.powerleech {
 }
 
 .nonselected {
-    /*background: #262626;*/
     background: rgba(0, 0, 0, 0.25);
 }
 
@@ -1592,18 +2074,11 @@ blockquote {
 /* Layout (Inbox) */
 
 tr.unreadpm {
-    background-color: #383838;
+    background-color: #35407dcf;
 }
 
 
 /* Layout (MISC) */
-
-
-/*.left_poll {
-
-    background: url('images/bar_left.gif') no-repeat center center;
-
-}*/
 
 .center_poll {
     background: #fc4c00;
@@ -1618,129 +2093,17 @@ tr.unreadpm {
     box-shadow: 0 0 1px #111;
 }
 
-
-/*.right_poll {
-
-    background: url('images/bar_right.gif') no-repeat center center;
-
-}*/
-
-
-/* Custom Icons */
-
-
-/* Remove the old icons */
-#stats_seeding a img, #stats_leeching a img {
-    width: 0;
-    height: 0;
+.curtain {
+    background-color: black;
 }
 
-#userinfo_stats {
-    position: absolute;
-    top: 60px;
-    right: 0px;
-    z-index: 2;
-}
 
-#userinfo_stats li {
-    position: relative;
-    display: block;
-    line-height: 20px;
-    vertical-align: middle;
-    float: left;
-    margin: 0 2px 0 2px;
-}
 
-#stats_seeding.user_stat_pics, #stats_leeching.user_stat_pics {
-    display: block;
-    float: left;
-    width: 12px;
-    height: 12px;
-    background: url('images/icons.png');
-}
 
-#stats_seeding.user_stat_pics {
-    background-position: -12px 0;
-}
 
-#stats_seeding .stat {
-    display: block;
-    padding-right: 10px;
-    border-right: 1px dashed #3a3a3a;
-    margin-right: 5px;
-    height: 20px;
-}
 
-#stats_leeching.user_stat_pics {
-    background-position: -24px 0;
-}
 
-#stats_ratio {
-    border-left: 1px dashed #3a3a3a;
-    padding-left: 10px;
-    margin-left: 10px !important;
-}
 
-#stats_ratio .ratio_text {
-    overflow: hidden;
-    white-space: nowrap;
-    text-indent: 101%;
-    display: block;
-    float: left;
-    background: url('images/icons.png');
-    width: 12px;
-    height: 12px;
-    position: relative;
-    top: 4px;
-    margin-right: 4px;
-}
-
-#stats_connectable {
-    border-left: 1px dashed #3a3a3a;
-    padding: 0 0 0 10px;
-    margin: 0 0 0 5px !important;
-}
-
-#stats_spin {
-    border-left: 1px dashed #3a3a3a;
-    padding: 0 0 0 10px;
-    margin: 0 0 0 5px !important;
-}
-
-#stats_skrab {
-    border-left: 1px dashed #3a3a3a;
-    padding: 0 0 0 10px;
-    margin: 0 0 0 5px !important;
-}
-
-#stats_connectable font[color=green] {
-    color: #418B00;
-}
-
-#stats_ratio span.stat span {
-    h
-}
-
-#userinfo_major {
-    position: absolute;
-    top: 84px;
-    right: 12px;
-    z-index: 2;
-}
-
-#userinfo_major li {
-    float: left;
-    padding: 0 5px 0 5px;
-    border-left: 1px dashed #3a3a3a;
-}
-
-#userinfo_major li:first-child, #userinfo_major li.user_stat_pics {
-    border-left: 0;
-}
-
-#userinfo a:hover {
-    color: white;
-}
 
 #nav_donate font {
     color: #afafaf !important;
@@ -1805,23 +2168,6 @@ tr.unreadpm {
     background-position: -145px 0;
 }
 
-
-/*
-
-.read_locked_sticky{background: url(images/locked_sticky_read.png) no-repeat center center;}
-
-.read_sticky{background: url(images/sticky_read.png) no-repeat center center;}
-
-.unread_sticky{background: url(images/sticky_unread.png) no-repeat center center;}
-
-.unread_locked{background: url(images/locked_unread.png) no-repeat center center;}
-
-.read_locked{background: url(images/locked_read.png) no-repeat center center;}
-
-.unread{background: url(images/unread.png) no-repeat center center;}
-
-.read{background: url(images/read.png) no-repeat center center;}*/
-
 #lolgo {
     position: absolute;
     left: 0;
@@ -1844,6 +2190,14 @@ tr.unreadpm {
 
 #search_container {
     width: 600px !important;
+    margin: auto;
+}  
+
+.searchbox {
+    border: 1px solid red;
+    width: 200px;
+    margin: auto;
+    
 }
 
 .fancybox-skin {
@@ -1852,28 +2206,13 @@ tr.unreadpm {
 
 
 /* MOD BAR */
-/*
-#modbarmain {
-    width: 100%;
-    background: #222;
-    border-bottom: 1px solid #2f2f2f;
-    line-height: 24px;
-    margin-bottom: 20px;
-} */
 
 #modbarmain {
-    /* width: 67vw; */
-    /* background: #222; */
-    /* border-top: 1px solid #2f2f2f; */
-    /* border-bottom: 1px solid #2f2f2f; */
-    /* border-right: 1px dashed #3a3a3a; */
-    /* line-height: 24px; */
     margin-bottom: 20px;
     position: absolute;
     margin-top: -146px;
-    margin-right: 297px;
-    /* margin-left: 792px; */
-    /* padding: 0 5px 0 5px; */
+    /*margin-right: 297px;*/
+    margin-right: 291px;
     text-align: right;
     right: 0;
     background: #13172d;
@@ -1881,7 +2220,6 @@ tr.unreadpm {
 
 .modbar {
     width: 100%;
-    /*border-bottom: 1px solid #151515;*/
 }
 
 .modbar a {
@@ -1920,389 +2258,5 @@ tr.unreadpm {
 }
 
 
-/* Bonus Siden */
 
-.bp_green {
-    color: darkgreen;
-}
 
-.bp_darkred {
-    color: darkred;
-}
-
-#noti_Container {
-    position: relative;
-    display: inline;
-    width: 16px;
-    height: 16px;
-}
-
-#noti_bubble {
-    display: inline;
-    position: absolute;
-    top: -19px;
-    right: -233px;
-    padding: 1px 2px 1px 2px;
-    background-color: red;
-    color: white;
-    font-weight: normal;
-    font-size: 0.70em;
-    border-radius: 30px;
-    box-shadow: 1px 1px 1px #202020;
-}
-
-#noti_bubble a {
-    color: #FFF;
-}
-
-
-/* fixes for small windows */
-
-@media screen and (max-width: 1400px) {
-    
-}
-
-@media screen and (max-width: 1200px) {
-    #menu ul {
-        margin-left: 10px;
-    }
-    #userinfo_stats {
-        width: 288px;
-        top: 40px;
-    }
-    #stats_spin {
-        border-left: 0;
-    }
-    #stats_connectable {
-        position: absolute !important;
-        top: 20px;
-        right: 14px;
-    }
-    li#stats_spin {
-        padding-left: 94px;
-    }
-    /*#stats_ratio { 
-        position: absolute !important;
-        top: 20px;
-        right: 114px;
-    } */
-    /*
-    #searchbars {
-
-        right: 10px;
-    }
-    */
-}
-
-
-/* Custom shiiiiit :D */
-
-table.cat_list tbody {}
-
-/* Custom Select på Torrents.php */
-td.searchbox select {
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    margin-right: 3px;
-    -webkit-appearance: none;
-    width: 95px;
-    height: 21px;
-    padding-left: 6px;
-    box-sizing: border-box;
-    color: #fff;
-    /* font-size: .9em; */
-    font-weight: normal;
-    background: url(images/select-arrows.svg) no-repeat 82px 2px #1B1B30;
-    border-radius: 4px;
-    border-top: 1px solid #947be8;
-    border-left: 1px solid #947be8;
-    border-right: 1px solid #7c4a93;
-    border-bottom: 1px solid #7c4a93;
-}
-
-/* Override Pagination */
-.pagination .current {
-    background: rgba(38, 49, 109, 0.75) !important;
-    color: #fff !important;
-}
-
-.pagination a, .pagination span {
-    display: inline-block;
-    color: white;
-    padding: 0.3em 0.5em;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    text-align:center;
-    border: 1px solid #333;
-    cursor: pointer;
-
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-top: 1px solid #947be8 !important;
-    border-left: 1px solid #947be8 !important;
-    border-right: 1px solid #7c4a93 !important;
-    border-bottom: 1px solid #7c4a93 !important;
-}
-
-.current.prev, .current.next {
-    display: none;
-}
-
-/* Tilføj stjerner til sticky torrents */
-tr.sticky span.right div#buttonmeup {
-    font-size: 18px;
-}
-
-tr.sticky span.right div#buttonmeup:before { 
-    content: "★";
-}
-
-/* Lav search-bar små og udvider sig, når man åbner dem. */
-/*
-input[value="Forums"] {
-    width: 34px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[value="Forums"]:focus {
-    width: 100px;
-} */
-
-
-/* ### Replace Torrent-billed ting ### */
-/*
-img[src="/static/common/torrents/populaer.png"] {
-
-  -moz-box-sizing: border-box;
-
-  box-sizing: border-box;
-
-    background: url(images/torrents/populaer.png) no-repeat;
-
-    background-size: 96px 16px;
-
-    width: 96px;
-
-    height: 16px;
-
-    padding-left: 96px;
-
-    margin-top: 4px;
-
-}
-
-
-
-img[src="/static/common/torrents/gratis.png"] {
-
-  -moz-box-sizing: border-box;
-
-  box-sizing: border-box;
-
-    background: url(images/torrents/gratis.png) no-repeat;
-
-    background-size: 96px 16px;
-
-    width: 96px;
-
-    height: 16px;
-
-    padding-left: 96px;
-
-    margin-top: 4px;
-
-}
-
-
-
-img[src="/static/common/torrents/toxupload.png"] {
-
-  -moz-box-sizing: border-box;
-
-  box-sizing: border-box;
-
-    background: url(images/torrents/toxupload.png) no-repeat;
-
-    background-size: 96px 16px;
-
-    width: 96px;
-
-    height: 16px;
-
-    padding-left: 96px;
-
-    margin-top: 4px;
-
-}
-
-
-
-img[src="/static/common/torrents/imdb.png"] {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(images/torrents/imdb.png) no-repeat;
-    background-size: 96px 16px;
-    width: 96px;
-    height: 16px;
-    padding-left: 96px;
-    margin-top: 4px;
-}
-*/
-
-
-/* ### Tilføj menu ikoner ### */
-#nav_index a:before {
-    content: " ";
-    background-image: url(images/menu/nav_index.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 7px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_torrents a:before {
-    content: " ";
-    background-image: url(images/menu/nav_torrents.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 10px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_movieindex a:before {
-    content: " ";
-    background-image: url(images/menu/nav_movieindex.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: -3px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_movieserie a:before {
-    content: " ";
-    background-image: url(images/menu/nav_movieserie.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 2px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_requests a:before {
-    content: " ";
-    background-image: url(images/menu/nav_requests.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 12px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_forums a:before {
-    content: " ";
-    background-image: url(images/menu/nav_forums.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 4px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_helpdesk a:before {
-    content: " ";
-    background-image: url(images/menu/nav_helpdesk.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 24px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_irc a:before {
-    content: " ";
-    background-image: url(images/menu/nav_irc.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: -2px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_top10 a:before {
-    content: " ";
-    background-image: url(images/menu/nav_top10.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 7px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_bonus a:before {
-    content: " ";
-    /*background-image: url(images/menu/nav_bonus.png); */
-    background-size: 32px 32px;
-    position: absolute;
-    left: 4px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_uploader a:before {
-    content: " ";
-    background-image: url(images/menu/nav_uploader.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: 4px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-#nav_torrentedit a:before {
-    content: " ";
-    background-image: url(images/menu/nav_torrentedit.png);
-    background-size: 32px 32px;
-    position: absolute;
-    left: -7px;
-    top: -32px;
-    height: 32px;
-    width: 32px;
-    display: inherit;
-}
-
-li#nav_donate a:after {
-    content: "Støt siden";
-    color: red;
-    font-weight: bold;
-}
-
-li#nav_donate span {
-    display: none;
-}
